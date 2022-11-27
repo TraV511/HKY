@@ -1,0 +1,291 @@
+:root {
+    --text-color: #111111;
+    --btn-color-hover: #E33239;
+    --btn-color-active: #A30209;
+    --primary-color: #007198;
+    --ui-color: #BB1219;
+    --bg-colorlight: #EBEBEB;
+    --sectionborder-color: #A2AAB2;
+    --bg-colordark: #DFE1E3;
+    --btntext-color: #FFF7F7;
+  }
+
+html {
+    font-size: 1rem;
+}
+  
+body {
+    font-family: 
+}
+  
+a {
+    text-decoration: none;
+}
+  
+figure {
+  margin: 0;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header {}
+
+.container__header {
+    max-width: 1720px;
+    width: 100%;
+    padding: 0;
+    margin: 0px 100px;
+}
+
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.header_logo {
+    flex-shrink: 0;
+}
+
+.header__link {
+    margin: 0px 0px 0px 105px ;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
+}
+
+.menu__link {
+
+}
+
+.header__contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    margin: 0px 65px 0px 240px ;
+    gap: 50px;
+}
+
+.header__call {
+
+}
+
+.btn {
+    width: 240px;
+    height: 70px;
+    background-color: var(--ui-color);
+    color: var(--btntext-color);
+
+    border: none;
+    
+}
+
+.btn:hover {
+    background-color: var(--btn-color-hover);
+  }
+
+.btn:active {
+    background-color: var(--btn-color-active);
+  }
+
+.caret {
+  position: relative;
+  display: block;
+  width: 5px;
+  height: 3px;
+  margin-left: 2px;
+  margin-top: -2px;
+}
+
+.caret::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 50px;
+  height: 100%;
+  background-color: #BB1219;
+}
+
+.first-screen {
+    position: relative;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px 0px rgba(17, 17, 17, 0.25);
+    overflow: hidden;
+    background-color: var(--bg-colordark);
+
+}
+
+.first__slider {
+    margin: 0 405px;
+    padding-top: 100px;
+}
+
+.first__info {
+    width: 1110px;
+    margin: 0 405px;
+    padding: 130px 0;
+}
+
+.info__text {
+    width: 730px;
+    height: 30px;
+    text-align: center;
+    size: 20px;
+}
+
+.info__title {
+    display: flex;
+    align-items: center;
+    gap: 59px;
+}
+
+.info__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+.info-card {
+    position: relative;
+    width: 298px;
+    height: 112px;
+    padding: 43px 25px;
+    overflow: hidden;
+    border: 1px solid var(--sectionborder-color);
+
+}
+
+.service-card__img {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: 0 119px ;
+}
+
+.info-card__text {
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.card__text {
+    position: relative;
+    width: 260px;
+    height: 34px;
+    padding: 11px 35px;
+    overflow: hidden;
+    border: 1px solid var(--sectionborder-color);
+}
+
+
+.second-screen {
+    overflow: hidden;
+    background-color: var(--bg-colorlight);
+}
+
+.section {
+}
+
+
+.project {
+    width: 1350px;
+    height: 814px;
+    margin: 0 405px;
+    padding: 130px 0px;
+}
+.project__slider {
+    height: 570px;
+}
+
+.project__blocks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1110px;
+    height: 194px;
+}
+
+.project__blockone {
+
+}
+
+.project__texttwo {
+    
+}
+
+.project__text {
+
+}
+
+.third-screen {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--bg-colordark);
+}
+
+.application {
+
+    width: 1110px;
+    margin: 0px 405px;
+    padding: 130px 0px;
+
+}
+
+.application__textbox {
+    margin-right: 30px;
+    padding-left: 30px;
+    width: 345px;
+    background:transparent;
+    height: 68px;
+    border: 1px solid var(--sectionborder-color);
+    color: var(--sectionborder-color);
+}
+
+.application__input {
+gap: 30px;
+}
+
+
+
+.container__footer {
+    max-width: 1110px;
+    height: 130px;
+    width: 100%;
+    padding: 0;
+    margin: 0px 405px;
+}
+
+.footer__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+    gap: 78px;
+}
+
+.footer__link {
+margin: 0;
+}
+
+.footer__call {
+}
