@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/normalize.css">
 </head>
+
 <body>
 
     <header class="header" id="header">
@@ -24,8 +27,8 @@
                     </ul>
                 </div>
                 <div class="header__contacts">
-                    <a href="#">info@nku.su</a>
-                    <a href="#">+7-916-444-11-59</a>
+                    <a class="menu__contacts" href="#">info@nku.su</a>
+                    <a class="menu__contacts" href="#">+7-916-444-11-59</a>
                 </div>
                 <button class="header__call btn" type="button" id="call-request">Оставить заявку</button>
 
@@ -36,91 +39,144 @@
 
     <main>
         <section class="first-screen section">
-            <div class="first__slider">
-            <h1 class="">Производство щитов управления вентиляцией</h1>
-            <p>Выполняем работы по проектированию, программированию и сборке шкафов управления вентиляцией.</p>
-            </div>
-            <div class="first__info">
-                <div class="info__title">
-                    <span class="caret"></span><h1>О нас</h1>
-                    <p class="info__text">Мы настолько уверены в качестве нашей работы, что даем пожизненную гарантию на нашу продукцию.</p>
+            <div class="container">
+                <div class="first__slider">
+                    <h1 class="h1">ПРОИЗВОДСТВО ЩИТОВ УПРАВЛЕНИЯ ВЕНТИЛЯЦИЕЙ</h1>
+                    <p class="slider__text">Выполняем работы по проектированию, программированию и сборке шкафов управления вентиляцией.</p>
                 </div>
-                <div class="info__cards">
-                    <article class="info-card">
-                        <figure class="service-card__img">
-                            <img src="/logo/manufacturing.svg" alt="Соединение разорвано">
-                          </figure>
-                        <p class="info-card__text">Свое производство</p>
-                    </article>
-                    <article class="info-card">
-                        <figure class="service-card__img">
-                            <img src="/logo/warranty.svg" alt="Соединение разорвано">
-                          </figure>
-                        <p class="info-card__text">Пожизненная гарантия</p>
-                    </article>
-                    <article class="info-card">
-                        <figure class="service-card__img">
-                            <img src="/logo/support.svg" alt="Соединение разорвано">
-                          </figure>
-                        <p class="info-card__text">Бесплатная техническая поддержка</p>
-                    </article>
-                    <article class="info-card">
-                        <figure class="service-card__img">
-                            <img src="/logo/worldwide.svg" alt="Соединение разорвано">
-                          </figure>
-                        <p class="info-card__text">Работаем по всему миру</p>    
-                    </article>
-                    <article class="info-card">
-                        <figure class="service-card__img">
-                            <img src="/logo/projects.svg" alt="Соединение разорвано">
-                          </figure>
-                        <p class="info-card__text">Разрабатываем проекты любой сложности</p>
-                    </article>
-                    <article class="info-card">
-                        <figure class="service-card__img">
-                            <img src="/logo/check.svg" alt="Соединение разорвано">
-                          </figure>
-                        <p class="info-card__text">Каждый щит проходит тщательную проверку</p>
-                    </article>
+                <div class="first__info">
+                    <div class="info__title">
+                        <span class="caret"></span>
+                        <h2 class="h2">О НАС</h2>
+                        <p class="info__text">Мы настолько уверены в качестве нашей работы, что даем пожизненную
+                            гарантию на нашу продукцию.</p>
+                    </div>
+                    <div class="info__cards">
+                        <article class="info-card">
+                            <figure class="service-card__img">
+                                <img src="/logo/manufacturing.svg" alt="Соединение разорвано">
+                            </figure>
+                            <p class="info-card__text">Свое производство</p>
+                        </article>
+                        <article class="info-card">
+                            <figure class="service-card__img">
+                                <img src="/logo/warranty.svg" alt="Соединение разорвано">
+                            </figure>
+                            <p class="info-card__text">Пожизненная гарантия</p>
+                        </article>
+                        <article class="info-card">
+                            <figure class="service-card__img">
+                                <img src="/logo/support.svg" alt="Соединение разорвано">
+                            </figure>
+                            <p class="info-card__text">Бесплатная техническая поддержка</p>
+                        </article>
+                        <article class="info-card">
+                            <figure class="service-card__img">
+                                <img src="/logo/worldwide.svg" alt="Соединение разорвано">
+                            </figure>
+                            <p class="info-card__text">Работаем по всему миру</p>
+                        </article>
+                        <article class="info-card">
+                            <figure class="service-card__img">
+                                <img src="/logo/projects.svg" alt="Соединение разорвано">
+                            </figure>
+                            <p class="info-card__text">Разрабатываем проекты любой сложности</p>
+                        </article>
+                        <article class="info-card">
+                            <figure class="service-card__img">
+                                <img src="/logo/check.svg" alt="Соединение разорвано">
+                            </figure>
+                            <p class="info-card__text">Каждый щит проходит тщательную проверку</p>
+                        </article>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section class="second-screen section">
-            <div class="project">
-                <div class="info__title">
-                    <span class="caret"></span><h1>Выполненные проекты</h1>
-                </div>
-                
-                <div class="project__slider">
-                    
-                </div>
-
-                <div class="project__blocks">
-                    <div class="project__blockone">
-                        <article class="card__text">ЖК Вавилово</article>
-                        <p><b>Дата завершения проекта:</b>  2020г.</p>
-                        <p><b>Сайт:</b>  https://nku.su/</p>
-                        <p><b>Адрес:</b>  г. Москва, ул. Архитектора Власова, д. 6</p>
+            <div class="container">
+                <div class="project">
+                    <div class="info__title">
+                        <span class="caret"></span>
+                        <h2 class="h2">ВЫПОЛНЕННЫЕ ПРОЕКТЫ</h2>
                     </div>
-                    <div class="project__texttwo">
-                       <p class="project__text">Выполнены работы по программированию, пуско-наладке и диспетчеризации 29 щитов управления системами кондиционирования, приточно-вытяжной вентиляции, тепловых завес и контроля загазованности. Использовались контроллеры компании Segnetics - SMH2G и Pixel.</p>
+
+                    <div class="project__slider">
+
+                    </div>
+
+                    <div class="project__blocks">
+                        <div class="project__blockone">
+                            <article class="card__text">ЖК Вавилово</article>
+                            <p><b>Дата завершения проекта:</b> 2020г.</p>
+                            <p><b>Сайт:</b> https://nku.su/</p>
+                            <p><b>Адрес:</b> г. Москва, ул. Архитектора Власова, д. 6</p>
+                        </div>
+                        <div class="project__text-two">
+                            <p class="project__text">Выполнены работы по программированию, пуско-наладке и
+                                диспетчеризации 29 щитов управления системами кондиционирования, приточно-вытяжной
+                                вентиляции, тепловых завес и контроля загазованности. Использовались контроллеры
+                                компании Segnetics - SMH2G и Pixel.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="third-screen section">
-            <div class="application">
+            <div class="container">
+                <div class="application">
+                    <div class="info__title">
+                        <span class="caret"></span>
+                        <h2 class="h2">ОСТАВИТЬ ЗАЯВКУ</h2>
+                        <p class="info__text">Мы с вами свяжемся и проконсультируем. Рассчитаем стоимость проекта,
+                            подберем оборудование, отправим коммерческое предложение.</p>
+                    </div>
+
+                    <div class="application__input">
+                        <input class="application__textbox" type="text" value="Имя" name="" id="">
+                        <input class="application__textbox" type="tel" value="Номер телефона" name="" id="">
+                        <button class="header__call btn" type="button" id="call-request">Оставить заявку</button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="four-screen section">
+            <div class="container">
                 <div class="info__title">
-                    <span class="caret"></span><h1>Оставить заявку</h1>
-                    <p class="info__text">Мы с вами свяжемся и проконсультируем. Рассчитаем стоимость проекта, подберем оборудование, отправим коммерческое предложение.</p>
+                    <span class="caret"></span>
+                    <h2 class="h2">ОТЗЫВЫ</h2>
+                </div>
+                <div class="video__cards">
+                    <div class="video__card">
+                        <img src="/images/HKY1.jpg" alt="Соединение разорвано">
+                        <button class="video__play" type="button" id="video-play"></button>
+                    </div>
+                    <div class="video__card">
+                        <img src="/images/HKY2.jpg" alt="Соединение разорвано">
+                        <button class="video__play" type="button" id="video-play"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="five-screen section">
+            <div class="container">
+                <div class="contacts-one">
+                    <div class="info__title">
+                        <span class="caret"></span>
+                        <h2 class="h2">КОНТАКТЫ</h2>
+                    </div>
+                    <div class="project__block-one">
+                        <p><b>Телефон:</b> +7-916-444-11-59</p>
+                        <p><b>E-mail:</b> info@nku.su</p>
+                        <p><b>Адрес:</b> г. Москва, ул. Маршала Захарова, д.23</p>
+                    </div>
                 </div>
 
-                <div class="application__input">
-                    <input class="application__textbox" type="text" value="Имя" name="" id="">
-                    <input class="application__textbox" type="tel" value="Номер телефона" name="" id="">
-                    <button class="header__call btn" type="button" id="call-request">Оставить заявку</button>
+                <div class="contacts-two">
 
                 </div>
             </div>
@@ -128,7 +184,7 @@
     </main>
 
     <footer>
-        <div class="container__footer">
+        <div class="container">
             <div class="footer__row">
                 <a href="/" class="footer_logo">
                     <img src="/logo/Logo.svg" alt="Соединение разорвано">
@@ -144,7 +200,7 @@
                 <button class="footer__call btn" type="button" id="call-request">Оставить заявку</button>
 
     </footer>
-    
+
 </body>
 
 </html>
