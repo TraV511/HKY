@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -13,11 +13,39 @@
 <body>
 
     <header class="header" id="header">
+
+        <section class="main-menu">
+            <div class="main-container">
+                <div class="main__link">
+                    <ul class="main__menu">
+                        <li><a class="menu__link" href="#"><b>О компании</b></a></li>
+                        <li><a class="menu__link" href="#"><b>Проекты</b></a></li>
+                        <li><a class="menu__link" href="#"><b>Отзывы</b></a></li>
+                        <li><a class="menu__link" href="#"><b>Контакты</b></a></li>
+                    </ul>
+                </div>
+
+                <article class="main__contacts">
+                    <div class="email">
+                        <img src="/logo/email.svg" alt="Соединение разорвано">
+                        <a class="menu__contacts" href="#">info@nku.su</a>
+                    </div>
+                    <div class="tel">
+                        <img src="/logo/phone-call.svg" alt="Соединение разорвано">
+                        <a class="menu__contacts" href="#">+7-916-444-11-59</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
         <div class="container__header">
             <div class="header__row">
                 <a href="/" class="header_logo">
                     <img src="/logo/Logo.svg" alt="Соединение разорвано">
                 </a>
+                <div class="header__group">
+                    <img class="menu__group" src="/logo/Group.svg" alt="Соединение разорвано">
+                </div>
                 <div class="header__link">
                     <ul class="menu">
                         <li><a class="menu__link" href="#">О компании</a></li>
@@ -30,7 +58,7 @@
                     <a class="menu__contacts" href="#">info@nku.su</a>
                     <a class="menu__contacts" href="#">+7-916-444-11-59</a>
                 </div>
-                <button class="header__call btn" type="button" id="call-request">Оставить заявку</button>
+                <button class="header__call btn" type="button">Оставить заявку</button>
 
             </div>
         </div>
@@ -38,11 +66,17 @@
     </header>
 
     <main>
+
+
         <section class="first-screen section">
             <div class="container">
                 <div class="first__slider">
                     <h1 class="h1">ПРОИЗВОДСТВО ЩИТОВ УПРАВЛЕНИЯ ВЕНТИЛЯЦИЕЙ</h1>
                     <p class="slider__text">Выполняем работы по проектированию, программированию и сборке шкафов управления вентиляцией.</p>
+                    <button class="first__call btn" type="button">Оставить заявку</button>
+                </div>
+                <div class="slider__photo">
+                    <img src="/images/Slide1.jpg" alt="Соединение разорвано">
                 </div>
                 <div class="first__info">
                     <div class="info__title">
@@ -56,37 +90,37 @@
                             <figure class="service-card__img">
                                 <img src="/logo/manufacturing.svg" alt="Соединение разорвано">
                             </figure>
-                            <p class="info-card__text">Свое производство</p>
+                            <p class="info-card__text"><b class="info-card__bold">Свое производство</b></p>
                         </article>
                         <article class="info-card">
                             <figure class="service-card__img">
                                 <img src="/logo/warranty.svg" alt="Соединение разорвано">
                             </figure>
-                            <p class="info-card__text">Пожизненная гарантия</p>
+                            <p class="info-card__text"><b class="info-card__bold">Пожизненная гарантия</b></p>
                         </article>
                         <article class="info-card">
                             <figure class="service-card__img">
                                 <img src="/logo/support.svg" alt="Соединение разорвано">
                             </figure>
-                            <p class="info-card__text">Бесплатная техническая поддержка</p>
+                            <p class="info-card__text"><b class="info-card__bold">Бесплатная техническая поддержка</b></p>
                         </article>
                         <article class="info-card">
                             <figure class="service-card__img">
                                 <img src="/logo/worldwide.svg" alt="Соединение разорвано">
                             </figure>
-                            <p class="info-card__text">Работаем по всему миру</p>
+                            <p class="info-card__text"><b class="info-card__bold">Работаем по всему миру</b></p>
                         </article>
                         <article class="info-card">
                             <figure class="service-card__img">
                                 <img src="/logo/projects.svg" alt="Соединение разорвано">
                             </figure>
-                            <p class="info-card__text">Разрабатываем проекты любой сложности</p>
+                            <p class="info-card__text"><b class="info-card__bold">Разрабатываем проекты любой сложности</b></p>
                         </article>
                         <article class="info-card">
                             <figure class="service-card__img">
                                 <img src="/logo/check.svg" alt="Соединение разорвано">
                             </figure>
-                            <p class="info-card__text">Каждый щит проходит тщательную проверку</p>
+                            <p class="info-card__text"><b class="info-card__bold">Каждый щит проходит тщательную проверку</b></p>
                         </article>
                     </div>
                 </div>
@@ -102,12 +136,12 @@
                     </div>
 
                     <div class="project__slider">
-
+                        <img src="/images/Slide2.jpg" alt="Соединение разорвано">
                     </div>
 
                     <div class="project__blocks">
                         <div class="project__blockone">
-                            <article class="card__text">ЖК Вавилово</article>
+                            <article class="card__text"> <b class="card__title">ЖК Вавилово</b></article>
                             <p><b>Дата завершения проекта:</b> 2020г.</p>
                             <p><b>Сайт:</b> https://nku.su/</p>
                             <p><b>Адрес:</b> г. Москва, ул. Архитектора Власова, д. 6</p>
@@ -134,11 +168,25 @@
                     </div>
 
                     <div class="application__input">
-                        <input class="application__textbox" type="text" value="Имя" name="" id="">
-                        <input class="application__textbox" type="tel" value="Номер телефона" name="" id="">
-                        <button class="header__call btn" type="button" id="call-request">Оставить заявку</button>
-
+                        <input class="application__textbox" type="text" placeholder="Имя" name="login">
+                        <input class="application__textbox" type="tel" placeholder="Номер телефона" name="telef">
+                        <button class="application__call btn" type="button" id="call-request">Оставить заявку</button>
+                        <div class="input__wrapper2">
+                            <input name="file" type="file" id="input__file" class="input__file" multiple>
+                            <label for="input__file" class="input__file-button">
+                                <span class="input__text">Прикрепить проект</span>
+                               <span class="input__clip"><img class="input__file-icon" src="logo/clip.svg" alt="Выбрать файл"></span>
+                            </label>
+                         </div>
                     </div>
+
+                   <div class="input__wrapper">
+                        <input name="file" type="file" id="input__file1" class="input__file" multiple>
+                        <label for="input__file" class="input__file-button">
+                            <span class="input__text">Прикрепить проект</span>
+                           <span class="input__clip"><img class="input__file-icon" src="logo/clip.svg" alt="Выбрать файл"></span>
+                        </label>
+                     </div>
                 </div>
             </div>
         </section>
@@ -149,15 +197,25 @@
                     <span class="caret"></span>
                     <h2 class="h2">ОТЗЫВЫ</h2>
                 </div>
+
                 <div class="video__cards">
-                    <div class="video__card">
-                        <img src="/images/HKY1.jpg" alt="Соединение разорвано">
-                        <button class="video__play" type="button" id="video-play"></button>
-                    </div>
-                    <div class="video__card">
-                        <img src="/images/HKY2.jpg" alt="Соединение разорвано">
-                        <button class="video__play" type="button" id="video-play"></button>
-                    </div>
+                    <article class="video__card">
+                        <figure class="video-card__img">
+                            <div class="circle">
+                                <div class="triangle"></div>
+                            </div>
+                            <img src="/images/HKY1.jpg" alt="Соединение разорвано">
+                        </figure>
+                    </article>
+
+                    <article class="video__card">
+                        <figure class="video-card__img">
+                            <div class="circle">
+                                <div class="triangle"></div>
+                            </div>
+                            <img src="/images/HKY2.jpg" alt="Соединение разорвано">
+                        </figure>
+                    </article>
                 </div>
             </div>
         </section>
@@ -174,10 +232,26 @@
                         <p><b>E-mail:</b> info@nku.su</p>
                         <p><b>Адрес:</b> г. Москва, ул. Маршала Захарова, д.23</p>
                     </div>
+                    <div class="contacts__map" style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/10756/stupino/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Ступино</a>
+                        <a href="https://yandex.ru/maps/10756/stupino/?ll=38.078491%2C54.902370&utm_medium=mapframe&utm_source=maps&z=16.79" style="color:#eee;font-size:12px;position:absolute;top:14px;">Карта Ступино с улицами и номерами домов — Яндекс Карты</a>
+                        <iframe class="map" src="https://yandex.ru/map-widget/v1/?ll=38.078491%2C54.902370&utm_medium=mapframe&utm_source=maps&z=16.79" width="1110" height="430" style="position:relative;"></iframe></div>
                 </div>
 
                 <div class="contacts-two">
-
+                    <div class="card__rekv-text">
+                    <article class="card__rekv"><b class="card__title">Реквизиты</b></article>
+                    </div>
+                    <div class="rekv__block">
+                        <p class="rekv__text">ООО «НКУ»</p>
+                        <p class="rekv__text">Юр. адрес: 115582, г. Москва, б-р Ореховый, д. 14, корп. 1, 374</p>
+                        <p class="rekv__text">ОГРН: 1187746358238</p>
+                        <p class="rekv__text">ИНН: 7724435224</p>
+                        <p class="rekv__text">КПП: 772401001</p>
+                        <p class="rekv__text">Банк: Филиал "ЦЕНТРАЛЬНЫЙ" Банка ВТБ ПАО Г. МОСКВА</p>
+                        <p class="rekv__text">БИК: 044525411</p>
+                        <p class="rekv__text">Р/с: 40702810501970001168</p>
+                        <p class="rekv__text">К/с: 30101810145250000411</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -186,21 +260,23 @@
     <footer>
         <div class="container">
             <div class="footer__row">
-                <a href="/" class="footer_logo">
+                <a href="/" class="footer__logo">
                     <img src="/logo/Logo.svg" alt="Соединение разорвано">
                 </a>
                 <div class="footer__link">
-                    <ul class="menu">
+                    <ul class="footer__menu">
                         <li><a class="menu__link" href="#">О компании</a></li>
                         <li><a class="menu__link" href="#">Проекты</a></li>
                         <li><a class="menu__link" href="#">Отзывы</a></li>
                         <li><a class="menu__link" href="#">Контакты</a></li>
                     </ul>
                 </div>
-                <button class="footer__call btn" type="button" id="call-request">Оставить заявку</button>
-
+                <button class="footer__call btn" type="button">Оставить заявку</button>
+            </div>
+        </div>
     </footer>
 
 </body>
+
 
 </html>
